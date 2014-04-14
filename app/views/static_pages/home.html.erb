@@ -1,7 +1,15 @@
 
 <!DOCTYPE html>
+<% provide(:title, 'Home') %>
+<div class="center hero-unit">
+  <h1>Welcome to the Differential GPS Correction Service</h1>
 
-    <h1>Differential GPS Correction Service</h1>
-    <p>
-     This is the home page for GPS corrections. More info about GPS Toolkit can be found 
-	 <a href = "http://www.gpstk.org/bin/view/Documentation/WebHome"> here. </a>
+  <h2>
+    This is the home page for the
+    <a href="http://railstutorial.org/">Differential GPS Correction Service.</a>
+    The site is under construction through the month of April. Please check back in May!
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
