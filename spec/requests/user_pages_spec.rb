@@ -60,4 +60,38 @@ describe "User pages" do
       end
     end
   end
+  describe "edit" do
+    let(:user) { FactoryGirl.create(:user) }
+    before { visit edit_user_path(user) }
+
+    describe "page" do
+      it { should have_content("Update your profile") }
+      it { should have_title("Edit user") }
+      it { should have_link('change', href: 'http://gravatar.com/emails') }
+    end
+
+    describe "with invalid information" do
+      before { click_button "Save changes" }
+
+      it { should have_content('error') }
+    end
+  end
+
+  describe "postprocess" do
+    let(:user) { FactoryGirl.create(:user) }
+    before { visit postprocess_user_path(user) }
+
+    describe "page" do
+      it { should have_content("Upload your GPS data for post-processing") }
+      it { should have_title("Browse") }
+      it { should have_link('Submit') }
+    end
+
+    describe "no file selected" do
+      before { click_button "Submit" }
+
+      it { should have_content('error') }
+    end
+  end
+
 end
