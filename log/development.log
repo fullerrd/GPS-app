@@ -1975,3 +1975,814 @@ Migrating to AddPasswordDigestToUsers (20140414032116)
 Binary data inserted for `string` type on column `password_digest`
   [1m[36mSQL (2.5ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 14 Apr 2014 03:36:28 UTC +00:00], ["email", "dominic.fuller-rowell@colorado.edu"], ["name", "Dominic Fuller-Rowell"], ["password_digest", "$2a$10$qPOqMJiWdinG0yS8c6OGYOe7oTC86XD7V/mdLfU2kJt/ilcLo02/i"], ["updated_at", Mon, 14 Apr 2014 03:36:28 UTC +00:00]]
   [1m[35m (284.1ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 19:21:50 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+Warning. Error encountered while saving cache 71a9294a368826e451d4d7332cc6d6bc89be7127/custom.css.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache cb53b898f797956e149916faf714739b3d99aca7/bootstrap.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/bootstrap.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_variables.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_mixins.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_reset.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_scaffolding.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_grid.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_layouts.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_type.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_code.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_forms.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_tables.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_sprites.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_dropdowns.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_wells.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_component-animations.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_close.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_buttons.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_button-groups.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_alerts.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_navs.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_navbar.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_pagination.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_pager.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_modals.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_tooltip.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_popovers.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_thumbnails.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_media.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_labels-badges.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_progress-bars.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_accordion.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_carousel.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_hero-unit.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_utilities.scssc: can't dump anonymous class #<Class:0x00000002f42340>
+
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (36.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 2833ms (Views: 2832.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-23 19:21:53 -0600
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-23 19:21:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 19:21:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 19:21:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 19:21:53 -0600
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-23 19:21:53 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-23 19:21:53 -0600
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-23 19:21:53 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-23 19:21:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 19:21:54 -0600
+
+
+Started GET "/assets/gps.gif" for 127.0.0.1 at 2014-04-23 19:21:54 -0600
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 60ms (Views: 12.3ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-23 19:27:52 -0600
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 193ms (Views: 149.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 19:32:11 -0600
+
+
+Started GET "/assets/gps.gif" for 127.0.0.1 at 2014-04-23 19:32:12 -0600
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 9.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+
+
+Started GET "/assets/gps.gif" for 127.0.0.1 at 2014-04-23 19:37:04 -0600
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1[0m
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-04-23 19:40:43 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Warning. Error encountered while saving cache 71a9294a368826e451d4d7332cc6d6bc89be7127/custom.css.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache cb53b898f797956e149916faf714739b3d99aca7/bootstrap.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/bootstrap.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_variables.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_mixins.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_reset.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_scaffolding.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_grid.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_layouts.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_type.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_code.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_forms.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_tables.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_sprites.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_dropdowns.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_wells.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_component-animations.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_close.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_buttons.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_button-groups.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_alerts.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_navs.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_navbar.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_pagination.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_pager.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_modals.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_tooltip.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_popovers.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_thumbnails.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_media.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_labels-badges.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_progress-bars.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_accordion.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_carousel.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_hero-unit.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_utilities.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 1922ms (Views: 1920.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+
+
+Started GET "/assets/gps.gif" for 127.0.0.1 at 2014-04-23 19:40:45 -0600
+  [1m[36m (378.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "password_digest" varchar(255)) [0m
+  [1m[35m (430.8ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (392.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (344.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (415.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140414032116')
+  [1m[36m (390.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140414031621')[0m
+  [1m[35m (449.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140414024951')
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (408.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "password_digest" varchar(255)) [0m
+  [1m[35m (423.0ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (391.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (369.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (340.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140414032116')
+  [1m[36m (433.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140414031621')[0m
+  [1m[35m (290.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140414024951')
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 19:49:28 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Warning. Error encountered while saving cache 71a9294a368826e451d4d7332cc6d6bc89be7127/custom.css.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache cb53b898f797956e149916faf714739b3d99aca7/bootstrap.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/bootstrap.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_variables.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_mixins.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_reset.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_scaffolding.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_grid.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_layouts.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_type.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_code.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_forms.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_tables.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_sprites.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_dropdowns.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_wells.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_component-animations.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_close.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_buttons.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_button-groups.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_alerts.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_navs.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_navbar.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_pagination.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_pager.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_modals.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_tooltip.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_popovers.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_thumbnails.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_media.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_labels-badges.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_progress-bars.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_accordion.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_carousel.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_hero-unit.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_utilities.scssc: can't dump anonymous class #<Class:0x0000000150fb30>
+
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1488ms (Views: 1486.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-04-23 19:49:32 -0600
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (43.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 80ms (Views: 60.0ms | ActiveRecord: 2.6ms)
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('foo@invalid') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-04-23 20:04:21 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (3.0ms)
+  Rendered users/new.html.erb within layouts/application (66.1ms)
+Warning. Error encountered while saving cache 71a9294a368826e451d4d7332cc6d6bc89be7127/custom.css.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache cb53b898f797956e149916faf714739b3d99aca7/bootstrap.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/bootstrap.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_variables.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_mixins.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_reset.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_scaffolding.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_grid.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_layouts.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_type.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_code.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_forms.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_tables.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_sprites.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_dropdowns.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_wells.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_component-animations.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_close.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_buttons.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_button-groups.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_alerts.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_navs.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_navbar.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_pagination.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_pager.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_modals.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_tooltip.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_popovers.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_thumbnails.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_media.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_labels-badges.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_progress-bars.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_accordion.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_carousel.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_hero-unit.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+Warning. Error encountered while saving cache 000678e3725164a3a9ea09ef044617a30516c21f/_utilities.scssc: can't dump anonymous class #<Class:0x00000002411660>
+
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (14.0ms)
+  Rendered layouts/_footer.html.erb (6.0ms)
+Completed 200 OK in 4463ms (Views: 4436.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started GET "/assets/gps.gif" for 127.0.0.1 at 2014-04-23 20:04:26 -0600
+
+
+Started POST "/users" for 127.0.0.1 at 2014-04-23 20:04:41 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WsTlSzMtf8xGj/wM+XdpmR71y4NvPStNuDbNGrWuXxY=", "user"=>{"name"=>"test test", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/users_controller.rb:9:in `create'
+
+
+  Rendered /home/dominic/.rvm/gems/ruby-2.1.0@railstutorial_rails_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/dominic/.rvm/gems/ruby-2.1.0@railstutorial_rails_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.5ms)
+  Rendered /home/dominic/.rvm/gems/ruby-2.1.0@railstutorial_rails_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /home/dominic/.rvm/gems/ruby-2.1.0@railstutorial_rails_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (136.1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-04-23 20:05:28 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WsTlSzMtf8xGj/wM+XdpmR71y4NvPStNuDbNGrWuXxY=", "user"=>{"name"=>"test test", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (1.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('test@test.com') LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  Rendered shared/_error_messages.html.erb (0.8ms)
+  Rendered users/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 333ms (Views: 105.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/assets/gps.gif" for 127.0.0.1 at 2014-04-23 20:05:29 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/assets/gps.gif" for 127.0.0.1 at 2014-04-23 20:21:46 -0600
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-04-23 20:21:48 -0600
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  Rendered users/new.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 74ms (Views: 55.1ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-04-23 20:22:08 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WsTlSzMtf8xGj/wM+XdpmR71y4NvPStNuDbNGrWuXxY=", "user"=>{"name"=>"Dominic Fuller-Rowell", "email"=>"dominic.fuller-rowell@colorado.edu", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('dominic.fuller-rowell@colorado.edu') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (2.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 24 Apr 2014 02:22:08 UTC +00:00], ["email", "dominic.fuller-rowell@colorado.edu"], ["name", "Dominic Fuller-Rowell"], ["password_digest", "$2a$10$b.g3NLEk3SCdAnB5wf72AOm43LEz8eRzSYqplLF4lp8qorfgE6NQi"], ["updated_at", Thu, 24 Apr 2014 02:22:08 UTC +00:00]]
+  [1m[35m (602.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 717ms (ActiveRecord: 605.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 21.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/assets/gps.gif" for 127.0.0.1 at 2014-04-23 20:22:09 -0600
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
+
+
+Started GET "/assets/gps.gif" for 127.0.0.1 at 2014-04-23 20:22:18 -0600
